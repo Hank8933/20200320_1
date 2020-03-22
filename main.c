@@ -7,7 +7,7 @@ void bubbleSort(int *a)
 {
     int temp;
     int flag = 1;
-    for (int j = 0; j < MAX && flag; j++)
+    for (int j = 0; j < MAX-1 && flag; j++)
     {
         flag = 0;
         for (int i = 0; i < MAX-1-j; i++)
